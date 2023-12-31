@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+  .about_title {
+    font-size: 57px;
+    margin-bottom: 50px;
+  }
+  .about_img img {
+    max-width: 74%;
+  }
+  .episodes_title {
+    font-size: 57px;
+  }
+  .episodes_name {
+    font-size: 35px;
+  }
+  .episodes_text {
+    font-size: 17px;
+  }
+  .episodes_btn {
+    font-size: 15px;
+  }
+  .episodes_style {
+    font-size: 14px;
+  }
+  .jacob_img img {
+    max-width: 100%;
+  }
+  .jacob_title {
+    font-size: 35px;
+  }
+  .jacob_host {
+    font-size: 15px;
+  }
+  .jacob_text {
+    font-size: 17px;
+  }
+  .jacob_btn {
+    width: 60px;
+    height: 60px;
+  }
+  .jacob_btn img {
+    max-width: 50%;
+  }
+}
