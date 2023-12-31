@@ -122,6 +122,7 @@ body {
 .about_img img {
   max-width: 100%;
   max-height: 873px;
+  border-radius: 15px;
 }
 .about_title {
   font-size: 70px;

@@ -43,4 +43,10 @@
   .jacob_btn img {
     max-width: 50%;
   }
+  .button input {
+    width: 400px;
+  }
+  .review_rec {
+    margin-right: 7px;
+  }
 }

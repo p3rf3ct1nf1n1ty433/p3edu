@@ -55,4 +55,15 @@
 		max-width: 50%;
 	}
 
+	.button {
+		input {
+			width: 400px;
+		}
+	}
+	
+	.review {
+		&_rec {
+			margin-right: 7px;
+		}
+	}
 }
