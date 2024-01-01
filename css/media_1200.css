@@ -46,7 +46,13 @@
   .button input {
     width: 400px;
   }
+  .button_title {
+    font-size: 60px;
+  }
   .review_rec {
     margin-right: 7px;
+  }
+  .review_rec:nth-child(3) {
+    margin-right: 0px;
   }
 }

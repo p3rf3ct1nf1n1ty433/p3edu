@@ -59,11 +59,18 @@
 		input {
 			width: 400px;
 		}
+		&_title {
+			font-size: 60px;
+		}
 	}
 	
 	.review {
 		&_rec {
 			margin-right: 7px;
+			&:nth-child(3) {
+				margin-right: 0px;
+			}
 		}
 	}
+
 }
