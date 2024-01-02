@@ -51,8 +51,18 @@
   }
   .review_rec {
     margin-right: 7px;
+    padding: 30px;
   }
   .review_rec:nth-child(3) {
     margin-right: 0px;
+  }
+  .review_text {
+    font-size: 26px;
+  }
+  .jacob {
+    margin-bottom: 100px;
+  }
+  .button {
+    margin-bottom: 100px;
   }
 }

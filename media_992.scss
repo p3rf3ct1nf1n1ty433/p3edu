@@ -3,4 +3,17 @@
 		max-width: 900px;
 	}
 
+	.about {
+		margin-bottom: 70px;
+		&_img {
+			margin-right: 40px;
+		}
+		&_title {
+			font-size: 50px;
+			line-height: 75px;
+			letter-spacing: 3.2px;
+			max-width: 526px;
+		}
+	}
+
 }

@@ -67,10 +67,22 @@
 	.review {
 		&_rec {
 			margin-right: 7px;
+			padding: 30px;
 			&:nth-child(3) {
 				margin-right: 0px;
 			}
 		}
+		&_text {
+			font-size: 26px;
+		}
+	}
+
+	.jacob {
+		margin-bottom: 100px;
+	}
+
+	.button {
+		margin-bottom: 100px;
 	}
 
 }
