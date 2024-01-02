@@ -2,4 +2,10 @@
   .container {
     max-width: none;
   }
+  .nav_links {
+    display: none;
+  }
+  .episodes_img img {
+    max-width: 300px;
+  }
 }

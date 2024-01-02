@@ -3,5 +3,19 @@
 		max-width: none;
 	}
 
+	.nav {
+		&_links {
+			display: none;	
+		}
+	}
+
+	.episodes {
+		&_img {
+			img {
+				max-width: 300px;
+			}
+		}
+	}
+
 
 }

@@ -13,5 +13,27 @@
     line-height: 75px;
     letter-spacing: 3.2px;
     max-width: 526px;
+    line-height: 55px;
+  }
+  .button_name {
+    margin-right: 15px;
+  }
+  .button_title {
+    font-size: 40px;
+  }
+  .button input {
+    width: 350px;
+  }
+  .review_text {
+    font-size: 20px;
+  }
+  .review_name {
+    font-size: 21px;
+  }
+  .episodes_title {
+    font-size: 45px;
+  }
+  .episodes_name {
+    font-size: 25px;
   }
 }
