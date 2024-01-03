@@ -2,8 +2,42 @@
   .container {
     max-width: none;
   }
+  .nav_row {
+    padding: 20px 0 20px 0;
+  }
   .nav_links {
     display: none;
+  }
+  .nav_title {
+    font-size: 10px;
+  }
+  .about_row {
+    display: block;
+  }
+  .about_img {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .about_img img {
+    width: 100%;
+  }
+  .about p {
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 1.3px;
+  }
+  .about_name {
+    text-align: center;
+  }
+  .about_title {
+    margin-bottom: 20px;
+  }
+  .episodes_row {
+    text-align: center;
+  }
+  .episodes_title {
+    font-size: 30px;
   }
   .episodes_img img {
     max-width: 300px;
