@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /*Обнуление*/
-
+@import url(media_1200.scss);
+@import url(media_992.scss);
+@import url(media_767.scss);
 * {
   padding: 0;
   margin: 0;
@@ -311,6 +313,6 @@ body {
   font-size: 24px;
 }
 
-@import url(media_1200.scss);
-@import url(media_992.scss);
-@import url(media_767.scss);
+.footer_name {
+  text-align: center;
+}

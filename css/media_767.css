@@ -11,13 +11,16 @@
   .nav_title {
     font-size: 10px;
   }
+  .about {
+    margin-bottom: 50px !important;
+  }
   .about_row {
     display: block;
   }
   .about_img {
     margin-bottom: 10px;
     text-align: center;
-    margin-right: 0px;
+    margin-right: 0px !important;
   }
   .about_img img {
     width: 100%;
@@ -32,14 +35,69 @@
   }
   .about_title {
     margin-bottom: 20px;
+    min-width: 100%;
   }
   .episodes_row {
     text-align: center;
   }
   .episodes_title {
-    font-size: 30px;
+    font-size: 30px !important;
+    margin-bottom: 50px;
   }
   .episodes_img img {
     max-width: 300px;
+  }
+  .episodes_wrapper {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+  .episodes_img {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .episodes_img img {
+    max-width: 324px;
+    max-height: 300px;
+  }
+  .episodes_style {
+    margin-bottom: 20px;
+  }
+  .episodes_name {
+    font-size: 20px !important;
+  }
+  .episodes_text {
+    font-size: 14px;
+  }
+  .jacob {
+    margin-bottom: 50px !important;
+  }
+  .jacob_name {
+    margin-right: 15px !important;
+  }
+  .jacob_text {
+    display: none;
+  }
+  .jacob_img img {
+    border-radius: 5px;
+  }
+  .button_row {
+    display: block;
+    padding: 10px;
+  }
+  .button_text {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .button_title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px !important;
+  }
+  .button_form {
+    text-align: center;
+  }
+  .review_row {
+    display: none;
   }
 }

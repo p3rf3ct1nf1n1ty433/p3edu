@@ -16,6 +16,7 @@
 		}
 	}
 	.about {
+		margin-bottom: 50px !important;
 		&_row {
 			display: block;
 		}
@@ -23,7 +24,7 @@
 		&_img {
 			margin-bottom: 10px;
 			text-align: center;
-			margin-right: 0px;
+			margin-right: 0px !important;
 			img {
 				width: 100%;
 			}
@@ -38,6 +39,7 @@
 		}
 		&_title {
 			margin-bottom: 20px;
+			min-width: 100%;
 		}
 	}
 
@@ -47,14 +49,92 @@
 		}
 
 		&_title {
-			font-size: 30px;
+			font-size: 30px !important;
+			margin-bottom: 50px;
 		}
 		&_img {
 			img {
 				max-width: 300px;
 			}
 		}
+
+		&_wrapper {
+			display: block;
+			text-align: center;
+			padding: 20px;
+		}
+
+		&_img {
+			margin-right: 0px;
+			margin-bottom: 10px;
+			img {
+				max-width: 324px;
+				max-height: 300px;
+			}
+		}
+
+		&_style {
+			margin-bottom: 20px;
+		}
+		&_name {
+			font-size: 20px !important;
+		}
+		&_text {
+			font-size: 14px;
+		}
 	}
 
+	.jacob {
+		margin-bottom: 50px !important;
+		&_row {
+
+		}
+		&_name {
+			margin-right: 15px !important;
+		}
+		&_text {
+			display: none;
+		}
+		&_img {
+			img {
+				border-radius: 5px;
+			}
+		}
+
+	}
+
+	.button {
+		&_row {
+			display: block;
+			padding: 10px;
+		}
+
+		&_text {
+			margin-bottom: 10px;
+			text-align: center;
+		}
+
+		&_title {
+			margin-bottom: 10px;
+			text-align: center;
+			font-size: 30px !important;
+		}
+
+		&_form {
+			text-align: center;
+		}
+	}
+
+
+
+
+
+
+
+	.review {
+		&_row {
+			display: none;
+		}
+	}
 
 }
