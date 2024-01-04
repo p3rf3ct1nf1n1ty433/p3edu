@@ -72,6 +72,57 @@ body {
 	&_link:hover {
 		color: #118DA8;
 	}
+
+	&_burger {
+		display: none;
+		position: relative;
+		z-index: 50;
+		align-items: center;
+		justify-content: flex-end;
+		width: 30px;
+		height: 18px;
+			span {
+				height: 2px;
+				width: 100%;
+				transform: scale(1);
+				background-color: #fff;
+			}
+	}
+
+	&_burger::before, &_burger::after {
+		content: '';
+		position: absolute;
+		height: 2px;
+		width: 100%;
+		background-color: #fff;
+		transition: all 0.3s ease 0s;
+	}
+
+	&_burger::before {
+		top: 0;
+	}
+
+	&_burger::after {
+		bottom: 0;
+	}
+
+	&_burger.active span {
+		transform: scale(0);
+	}
+
+	&_burger.active::before {
+		top: 50%;
+		transform: rotate(-45deg) translate(0, -50%);
+	}
+
+	&_burger.active::after {
+		bottom: 50%;
+		transform: rotate(45deg) translate(0, 50%);
+	}
+}
+
+.open {
+	display: flex !important;
 }
 
 .about {
